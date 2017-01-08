@@ -54,6 +54,10 @@ button {
   text-align: center;
   color: #fff;
 }
+button:disabled {
+  cursor: not-allowed;
+  background: #b598e4;
+}
 p {
   margin: 5px 0;
 }
