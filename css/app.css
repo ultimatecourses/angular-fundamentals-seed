@@ -34,7 +34,9 @@ input,
 button {
   outline: 0;
 }
-input {
+input[type=text],
+input[type=email],
+input[type=number] {
   border: none;
   background: #fff;
   font-size: 13px;
