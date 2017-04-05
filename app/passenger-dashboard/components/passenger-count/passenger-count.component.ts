@@ -7,7 +7,7 @@ import { Passenger } from '../../models/passenger.interface'
   <div>
     <h3>Airline Passengers</h3>
     <div>
-      Total Passengers Checked In: {{ checkedInCount() }} / {{ items.length }}
+      Total Passengers Checked In: {{ checkedInCount() }} / {{ items?.length }}
     </div>
   </div>
   `

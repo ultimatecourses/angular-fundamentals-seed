@@ -1,1 +1,28 @@
-{}
+{
+  "passengers": [
+    {
+      "id": 1,
+      "fullname": "Stevie Tyler",
+      "checkedIn": true,
+      "checkInDate": 14905420000000,
+      "children": [
+        {
+          "name": "Brian",
+          "age": 15
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fullname": "Rose Tyler",
+      "checkedIn": true,
+      "checkInDate": null,
+      "children": [
+        {
+          "name": "Jessica",
+          "age": 1
+        }
+      ]
+    }
+  ]
+}
