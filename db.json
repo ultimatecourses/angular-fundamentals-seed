@@ -5,24 +5,28 @@
       "fullname": "Stevie Tyler",
       "checkedIn": true,
       "checkInDate": 14905420000000,
-      "children": [
-        {
-          "name": "Brian",
-          "age": 15
-        }
-      ]
+      "baggage": ""
     },
     {
       "id": 2,
       "fullname": "Rose Tyler",
       "checkedIn": true,
       "checkInDate": null,
-      "children": [
-        {
-          "name": "Jessica",
-          "age": 1
-        }
-      ]
+      "baggage": ""
+    },
+    {
+      "id": 3,
+      "fullname": "Stevie Wonder",
+      "checkedIn": true,
+      "checkInDate": null,
+      "baggage": ""
+    },
+    {
+      "id": 4,
+      "fullname": "Wonder Washer",
+      "checkedIn": true,
+      "checkInDate": 14605420000000,
+      "baggage": ""
     }
   ]
 }

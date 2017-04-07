@@ -4,9 +4,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
-import 'rxjs/add/observable/throw ';
-
-import {Req} from "awesome-typescript-loader/dist/checker/protocol";
+import 'rxjs/add/observable/throw';
 
 
 const PASSENGER_API: string ='/api/passengers';
@@ -23,6 +21,15 @@ export class PassengerDashboardService {
       .catch((error: any) => Observable.throw(error.json()));
 
   }
+
+  getPassenger(id: number): Observable<Passenger> {
+    return this.http
+      .get(`${PASSENGER_API}/${id}`)
+      .map((res: Response) => res.json())
+      .catch((error: any) => Observable.throw(error.json()));
+
+  }
+
   updatePassenger(passenger: Passenger): Observable<Passenger> {
     let headers = new Headers({
       'Content-Type': 'application/json'
