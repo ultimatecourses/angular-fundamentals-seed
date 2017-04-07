@@ -1,1 +1,32 @@
-{}
+{
+  "passengers": [
+    {
+      "id": 1,
+      "fullname": "Stevie Tyler",
+      "checkedIn": true,
+      "checkInDate": 14905420000000,
+      "baggage": ""
+    },
+    {
+      "id": 2,
+      "fullname": "Rose Tyler",
+      "checkedIn": true,
+      "checkInDate": null,
+      "baggage": ""
+    },
+    {
+      "id": 3,
+      "fullname": "Stevie Wonder",
+      "checkedIn": true,
+      "checkInDate": null,
+      "baggage": ""
+    },
+    {
+      "id": 4,
+      "fullname": "Wonder Washer",
+      "checkedIn": true,
+      "checkInDate": 14605420000000,
+      "baggage": ""
+    }
+  ]
+}
