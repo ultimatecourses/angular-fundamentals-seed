@@ -32,7 +32,7 @@ To grab the seed project, either Fork this repo or [click here to download](http
 
 #### Step 1: Package Manager
 
-To install the project dependencies, you will need to install `yarn`. To install `yarn`, run the following in your terminal:
+To install the project dependencies, you will need to either use `npm` or `yarn`. To install `yarn`, run the following in your terminal:
 
 ```bash
 npm install -g yarn
@@ -53,6 +53,10 @@ Now that we have a package manager, we can install the project dependencies. You
 
 ```bash
 yarn install
+
+# OR
+
+npm install
 ```
 
 This will install our dependencies for running our Angular application.
@@ -65,6 +69,10 @@ To start the project in development, run:
 
 ```
 yarn start
+
+# OR
+
+npm start
 ```
 
 This will output some information about the project (such as the TypeScript version and build progress). Once you see "build completed", you are ready to code!
