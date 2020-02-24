@@ -5,32 +5,28 @@ import { Component }from '@angular/core';
   styleUrls: ['app.component.scss'],
   template: `
   <div class='app'>
-    <input 
-    type='text'
-    [value]='name'
-    (input)='handleChange($event.target.value)'> 
-  
-  
-   <div *ngIf='name.length > 2'>
-    Searching for..
-    {{ name }}
-    </div>
+    <h3>Airline Passengers</h3>
   </div>
-    <!-- Why * (if not we would have to write all this: 
-    
-    <template> 
-      <div ngIf='name.length > 2'
-        Searching for..
-        {{name}}
-      </div>
-    </template> 
-    )-->
   `
 })
 
 export class AppComponent{
-  name: string = 'Todd';
-  handleChange(value: string) {
-    this.name = value;
-  }
+  passengers: Passenger[] =[{
+    id: 1,
+    fullname: 'Stephen',
+    checkedIn: true
+  }, {
+    id: 2,
+    fullname: 'Rose',
+    checkedIn: false
+  }, {
+    id: 4,
+    fullname: 'Louise',
+    checkedIn: true
+  }, {
+  },{
+    id: 5,
+    fullname: 'Tina',
+    checkedIn: false
+}]
 } 
