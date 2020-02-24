@@ -19,7 +19,7 @@ import { Component }from '@angular/core';
     <!-- Why * (if not we would have to write all this: 
     
     <template> 
-      <div ngIf+'name.legth > 2'
+      <div ngIf='name.length > 2'
         Searching for..
         {{name}}
       </div>
