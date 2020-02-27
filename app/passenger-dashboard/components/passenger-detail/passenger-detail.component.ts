@@ -43,7 +43,7 @@ export class PassengerDetailComponent {
 	edit: EventEmitter<any> = new EventEmitter();
 	
 	@Output()
-	remove= new EventEmitter<any>()  
+	remove: EventEmitter<any> = new EventEmitter();
 
 	editing: boolean = false;
 
@@ -59,8 +59,6 @@ export class PassengerDetailComponent {
 		this.editing = !this.editing;
 	}
 	onRemove() {
-		console.log('click on remove')
-		let newremove = this.remove.emit(this.detail);
-		console.log(newremove)
+		this.remove.emit(this.detail);
 	}
 }
